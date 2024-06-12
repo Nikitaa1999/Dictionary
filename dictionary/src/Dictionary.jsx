@@ -41,7 +41,7 @@ export default function Dictionary(){
             />
             <button onClick={search}>Search</button>
             <br/>
-           <p> <b>Definition:</b></p>
+           Definition:
            {meaning ? <p>{meaning}</p> : <></>}
         </div>
     )
