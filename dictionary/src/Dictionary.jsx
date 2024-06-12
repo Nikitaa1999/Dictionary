@@ -36,7 +36,7 @@ export default function Dictionary(){
             <h1>Dictionary App</h1>
             <input type="text"
                 placeholder="Search for a word..."
-                value={input}
+                
                 onChange={(e)=>{setInput(e.target.value)}}
             />
             <button onClick={search}>Search</button>
