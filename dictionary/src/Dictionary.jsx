@@ -33,6 +33,7 @@ export default function Dictionary(){
     
     return(
         <div>
+            <h1>Dictionary App</h1>
             <input type="text"
                 placeholder="Search for a word..."
                 value={input}
