@@ -40,8 +40,8 @@ export default function Dictionary(){
                 onChange={(e)=>{setInput(e.target.value)}}
             />
             <button onClick={search}>Search</button>   
-              Definition: 
-           {meaning ? <>{meaning}</> : <></>}
+              <p>Definition:</p> 
+           {meaning && <p>{meaning}</p> }
         </div>
     )
 }
